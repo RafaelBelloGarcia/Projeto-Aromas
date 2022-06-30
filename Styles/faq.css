@@ -1,0 +1,25 @@
+.details {
+    background-color: #eceeef;
+    border: 2px solid #a5bac5;
+    border-radius: 12px;
+    margin-top: 0 auto;
+    padding: 12px;
+}
+
+.details:not(:last-of-type) {
+    margin-bottom: 16px;
+}
+
+.details[open] .faq-sumary {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #a5bac5;
+}
+
+.faq-sumary {
+    cursor: pointer;
+
+}
+
+.coment {
+    padding-top: 12px;
+}

@@ -1,0 +1,42 @@
+.form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.form-row-inline {
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-label {
+    margin-bottom: 8px;
+}
+
+.form-label-inline {
+    margin-left: 8px;
+}
+
+.form-input {
+    border: 1px solid #a5bac5;
+    border-radius: 8px;
+    max-height: 200px;
+    padding: 4px;
+}
+
+.form button {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    color: #2a0f14;
+    background-color: transparent;
+    text-decoration: none;
+}

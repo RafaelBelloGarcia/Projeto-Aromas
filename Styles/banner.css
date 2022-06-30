@@ -1,0 +1,91 @@
+.banner-background {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/fundo.png");
+    background-size: contain;
+    background-position: center;
+    padding: 32px 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #e18795;
+    padding: 1.5rem;
+    width: auto;
+    max-height: 65%;
+}
+
+.banner-img-background {
+    display: flex;
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #be1e1ede;
+    border-radius: 50%;
+}
+
+.banner-img-background img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.banner-title {
+    font-size: 18px;
+}
+
+.banner-subtitle {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.banner-description {
+    margin-bottom: 24px;
+}
+
+.banner-link {
+    border: 2px solid #2a0f14;
+    border-radius: 12px;
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #2a0f14;
+    background-color: transparent;
+}
+
+.banner-link:hover {
+    color: #fff;
+    background-color: #2a0f14;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .banner-background {
+        max-width: 100%;
+    }
+
+
+    .banner-img-background {
+        display: none;
+    }
+
+    .banner-content {
+        width: 100%;
+        max-width: initial;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .banner-img-background{
+        width: 200px;
+        height: 200px;
+    }
+}
